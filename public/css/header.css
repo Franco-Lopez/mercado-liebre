@@ -1,0 +1,55 @@
+header img.logo{
+    width: 55%;
+    padding: 20px;
+}
+.buscador{
+    margin: 0px 120px 0px 10px;
+    padding: 3px 0;
+    background-color: var(--Blanco);
+    border-color: var(--Gris-oscuro);
+    border-width: 2px;
+    border-style: solid;
+}
+.lupa{
+    
+    background-color: var(--Blanco);
+    border: 1px solid var(--Gris-oscuro);
+    padding: 1px;
+    border-radius: 2px;
+    margin: 0px 10px;
+    color: var(--Negro);
+    width: 20px;
+}
+header p{
+    color: var(--Negro);
+    margin: 0 ;
+    padding: 10px;
+    text-align: center;
+}
+header nav ul{
+    padding: 0;
+    margin: 15px 0;
+
+}
+header nav ul li{
+
+    list-style: none;
+   
+}
+header nav ul li a{
+    text-decoration: none;
+    color: var(--Negro);
+    margin-right: 2px;
+}
+
+header .btn-burger{
+    width: 45px;
+    padding: 5px;
+    background-color: var(--Celeste);
+    display: block;
+    color: var(--Blanco);
+    font-size: 25px;
+    margin: 0 auto 30px;
+    text-align: center;
+    border-radius: 5px;
+}

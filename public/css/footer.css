@@ -1,0 +1,27 @@
+footer section{
+    color: var(--Gris-oscuro);
+    text-align: center;
+    padding: 20px;
+}
+footer section i{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+    color:var(--Celeste);
+}
+
+.footer-down{
+    margin: 0;
+    padding: 0;
+}
+.copyright{
+    text-align: left;
+    font-size: 12px;
+}
+
+footer section p {
+    margin-top: 0;
+    color: var(--Gris-oscuro);
+    padding: 0px 5px 20px;
+    font-size: 13px;
+}

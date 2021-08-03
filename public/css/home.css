@@ -1,0 +1,29 @@
+body{
+    background-color: var(--Amarillo);
+}
+
+.imagenes{
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+}
+.marco-img{
+    padding: 0;
+    margin: 0;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.main section .detalles h3{
+    font-size: 24px;
+}
+.detalles{
+    margin: 0px 10px;
+    padding: 0;
+    background-color: var(--Blanco);
+    border-color: var(--Gris-claro);
+    border-width: 2px;
+    border-style: solid;
+}
