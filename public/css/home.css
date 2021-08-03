@@ -2,28 +2,28 @@ body{
     background-color: var(--Amarillo);
 }
 
-.imagenes{
+main section div img.imagenes{
     width: 100%;
     padding: 10px 10px 0px 10px;
 }
-.marco-img{
+main section div.marco-img{
     padding: 0;
     margin: 0;
 }
-.precio{
-    font-size: 18px;
-}
-.descuento{
-    font-size: 16px;
-}
-.main section .detalles h3{
-    font-size: 24px;
-}
-.detalles{
+main section div.detalles{
     margin: 0px 10px;
     padding: 0;
     background-color: var(--Blanco);
     border-color: var(--Gris-claro);
     border-width: 2px;
     border-style: solid;
+}
+main section div p.precio{
+    font-size: 18px;
+}
+main section div p.descuento{
+    font-size: 16px;
+}
+.main section .detalles h3{
+    font-size: 24px;
 }

@@ -10,11 +10,11 @@ footer section i{
     color:var(--Celeste);
 }
 
-.footer-down{
+footer section.footer-down{
     margin: 0;
     padding: 0;
 }
-.copyright{
+footer section p.copyright{
     text-align: left;
     font-size: 12px;
 }

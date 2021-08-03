@@ -2,7 +2,7 @@ header img.logo{
     width: 55%;
     padding: 20px;
 }
-.buscador{
+header div.buscador{
     margin: 0px 120px 0px 10px;
     padding: 3px 0;
     background-color: var(--Blanco);
@@ -10,7 +10,7 @@ header img.logo{
     border-width: 2px;
     border-style: solid;
 }
-.lupa{
+header div.lupa{
     
     background-color: var(--Blanco);
     border: 1px solid var(--Gris-oscuro);
