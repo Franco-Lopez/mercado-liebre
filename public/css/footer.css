@@ -1,3 +1,6 @@
+footer{
+    margin: 30px 10px 0 10px;
+}
 footer section{
     color: var(--Gris-oscuro);
     text-align: center;

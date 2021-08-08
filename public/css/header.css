@@ -1,18 +1,24 @@
+header{
+    padding-bottom: 1px;
+}
 header img.logo{
     width: 55%;
     padding: 20px;
 }
+header section.busquedad{
+    display: flex;
+}
 header div.buscador{
-    margin: 0px 120px 0px 10px;
-    padding: 3px 0;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 0 20px 0 0;
     background-color: var(--Blanco);
-    border-color: var(--Gris-oscuro);
-    border-width: 2px;
-    border-style: solid;
+    border: 1px solid var(--Gris-oscuro);
+    color: var(--Gris-oscuro);
 }
 header div.lupa{
     
-    background-color: var(--Blanco);
+    background-color: var(--Gris-claro);
     border: 1px solid var(--Gris-oscuro);
     padding: 1px;
     border-radius: 2px;
@@ -21,10 +27,15 @@ header div.lupa{
     width: 20px;
 }
 header p{
+    font-size: 13px;
     color: var(--Negro);
     margin: 0 ;
     padding: 10px;
     text-align: center;
+}
+header nav{
+    display: none;
+    padding-left: 15px;
 }
 header nav ul{
     padding: 0;
@@ -49,7 +60,15 @@ header .btn-burger{
     display: block;
     color: var(--Blanco);
     font-size: 25px;
-    margin: 0 auto 30px;
+    margin: 0 auto 20px;
     text-align: center;
     border-radius: 5px;
+}
+@media (min-width:361px){
+    header nav{
+        display: block;
+    }
+    header .btn-burger{
+        display: none;
+    }
 }
