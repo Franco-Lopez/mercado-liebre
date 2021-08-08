@@ -8,7 +8,10 @@
     padding: 15px;
 }
 main section h2{
+    color: var(--Gris-oscuro);
     font-size: 24px;
+    align-self: flex-start;
+    padding-bottom: 15px;
 }
 main section div img.imagenes{
     width: 100%;
