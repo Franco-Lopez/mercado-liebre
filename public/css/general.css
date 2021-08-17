@@ -7,10 +7,13 @@
     --Gris-claro: #ebebeb;
     --Negro: black;
     --Verde: #39b54a;
+    --Blanco-article: #FFF;
 }
 *{
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 .header{
     background-color: var(--Amarillo);

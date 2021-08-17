@@ -1,28 +1,28 @@
 header{
-    padding-bottom: 1px;
+    padding: 30px 20px 20px 20px;
 }
-header img.logo{
-    width: 55%;
-    padding: 20px;
-}
-header section.busquedad{
+header .header-top{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
-header div.buscador{
-    display: inline-block;
-    margin-left: 15px;
-    padding: 0 20px 0 0;
-    background-color: var(--Blanco);
-    border: 1px solid var(--Gris-oscuro);
-    color: var(--Gris-oscuro);
+header .logo{
+    width: 48%;
+    margin-left: 10px;
 }
-header div.lupa{
+header .busquedad{
+    width: 48%;
+}
+header div.busquedad form input{
+   width: 80%;
+}
+header div.busquedad form button{
     
     background-color: var(--Gris-claro);
     border: 1px solid var(--Gris-oscuro);
     padding: 1px;
     border-radius: 2px;
-    margin: 0px 10px;
     color: var(--Negro);
     width: 20px;
 }
@@ -64,11 +64,28 @@ header .btn-burger{
     text-align: center;
     border-radius: 5px;
 }
-@media (min-width:361px){
-    header nav{
-        display: block;
+@media (min-width:768px){
+    header .logo{
+        width: 32%;
+    }
+    header .busquedad{
+        width: 32%;
+    }
+    header p{
+        width: 32%;
+        font-size: 16px;
     }
     header .btn-burger{
         display: none;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav ul{
+        display: flex;
+    }
+    header nav ul li{
+        margin: 0 7px;
     }
 }
