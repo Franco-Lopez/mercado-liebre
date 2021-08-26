@@ -1,5 +1,6 @@
 footer{
     margin: 30px 10px 0 10px;
+    background-color: var(--Blanco);
 }
 footer section{
     color: var(--Gris-oscuro);

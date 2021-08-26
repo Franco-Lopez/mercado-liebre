@@ -1,0 +1,36 @@
+.register .contenedor-formulario{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+.register .contenedor-formulario h2{
+    text-align: center;
+    margin-top: 20px ;
+}
+.register .contenedor-formulario .contenedor-input{
+    display: flex;
+    margin: 20px 0;
+}
+.register .contenedor-formulario .contenedor-botones{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+
+}
+input.texto{
+    width: 100%;
+}
+.register .contenedor-formulario input{
+padding: 10px;
+border: none;
+border-radius: 5px;
+}
+.register .contenedor-formulario .contenedor-input .radio{
+    margin: 0 20px;
+
+}
+.register .contenedor-formulario .contenedor-input .check{
+    margin: 0 15px;
+
+}
+

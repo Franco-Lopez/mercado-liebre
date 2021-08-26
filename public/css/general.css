@@ -8,6 +8,7 @@
     --Negro: black;
     --Verde: #39b54a;
     --Blanco-article: #FFF;
+    --Rojo: red;
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -15,9 +16,25 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: var(--Gris-claro);
+}
 .header{
     background-color: var(--Amarillo);
 }
 .main{
     background-color: var(--Gris-claro);
 }
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--Blanco);
+    cursor: pointer;
+}
+.btn-rojo{
+    background-color: var(--Rojo);
+    }
+.btn-verde{
+        background-color: var(--Verde);
+        }
