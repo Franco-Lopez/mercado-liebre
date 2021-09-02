@@ -37,4 +37,8 @@ button{
     }
 .btn-verde{
         background-color: var(--Verde);
+        transition: background-color linear .3s;
         }
+.btn-verde:hover{
+    background-color: var(--Celeste);
+}

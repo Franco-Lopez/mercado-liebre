@@ -22,6 +22,11 @@ main section div.marco-img{
 }
 main section article{
     margin-top: 10px;
+    background-color: var(--Blanco-article);
+    transition: all ease .3s;
+}
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 main section article div div.circulo {
     border-radius: 50%;
@@ -35,6 +40,11 @@ main section article div div.circulo {
     display: block;
     position: absolute;
     background-color: var(--Blanco-article);
+    transition: all ease .3s;
+}
+main section article:hover div div.circulo {
+    box-shadow: 0 0 5px var(--Verde);
+    transform: rotate(360deg);
 }
 main section div.detalles{
     background-color: var(--Blanco);
@@ -44,6 +54,7 @@ main section div.detalles{
 }
 main section article .detalles .precio-descuento{
     display: flex;
+    padding-bottom: 10px;
 }
 main section div p.precio{
     font-size: 18px;
@@ -54,12 +65,20 @@ main section div p.descuento{
     color: var(--Verde);
     flex-grow: 0.7;
 }
-main section div h4{
-    display: none;
+main section div .descripcion{
+    height: 0;
+    transition: all ease .3s;
+    overflow: hidden;
+
     font-weight: normal;
     color: var(--Gris-oscuro);
-    padding: 10px 0;
 }
+
+main section article:hover .descripcion{
+    height: 20px;
+}
+
+
 .main section .detalles h3{
     font-size: 24px;
 }
@@ -67,10 +86,9 @@ main section div h4{
 /*tablet*/
 @media (min-width:361px){
     .main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 40%;
     }
-    main section div h4{
+    main section div .descripcion{
         display: block;
     }
 }

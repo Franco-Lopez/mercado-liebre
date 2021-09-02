@@ -2,6 +2,7 @@ footer{
     margin: 30px 10px 0 10px;
     background-color: var(--Blanco);
 }
+
 footer section{
     color: var(--Gris-oscuro);
     text-align: center;
@@ -12,6 +13,10 @@ footer section i{
     text-align: center;
     font-size: 2em;
     color:var(--Celeste);
+    transition: color ease .3s;
+}
+footer section i:hover{
+    color: var(--Azul);
 }
 
 footer section.footer-down{
@@ -28,4 +33,20 @@ footer section p {
     color: var(--Gris-oscuro);
     padding: 0px 5px 20px;
     font-size: 13px;
+}
+
+@media(min-width: 1024px){
+    footer .contenedor-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer .contenedor-footer section{
+        width: 33%;
+        
+        padding: 20px 25px;
+        margin-bottom: 20px;
+    
+    }
 }
