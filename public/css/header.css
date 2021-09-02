@@ -16,15 +16,18 @@ header .busquedad{
 }
 header div.busquedad form input{
    width: 80%;
+   padding: 4px;
+   
 }
 header div.busquedad form button{
     
-    background-color: var(--Gris-claro);
+    background-color: var(--Blanco);
     border: 1px solid var(--Gris-oscuro);
-    padding: 1px;
-    border-radius: 2px;
+    padding: 5px;
+    margin-left: -6px;
+    border-radius: 0 5px 5px 0;
     color: var(--Negro);
-    width: 20px;
+  
 }
 header p{
     font-size: 13px;
